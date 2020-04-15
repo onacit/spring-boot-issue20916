@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@ComponentScan(basePackages = {"com.github.onacit.spring.boot.issue447", "com.github.onacit.some0"})
+@ComponentScan(basePackages = {"com.github.onacit.spring.boot.issue20916", "com.github.onacit.some0"})
 @EnableTransactionManagement
 @EnableJpaRepositories
 @SpringBootApplication

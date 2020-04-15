@@ -1,6 +1,6 @@
 package com.github.onacit.some2;
 
-import com.github.onacit.spring.boot.issue447.AuditableEntityRepositoryService2Test;
+import com.github.onacit.spring.boot.issue20916.AuditableEntityRepositoryService2Test;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.LocalDateTime;

@@ -1,6 +1,6 @@
 package com.github.onacit.some0;
 
-import com.github.onacit.spring.boot.issue447.IdentifiableEntityRepositoryServiceTest;
+import com.github.onacit.spring.boot.issue20916.IdentifiableEntityRepositoryServiceTest;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

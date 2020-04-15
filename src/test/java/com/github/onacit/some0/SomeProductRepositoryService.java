@@ -1,6 +1,6 @@
 package com.github.onacit.some0;
 
-import com.github.onacit.spring.boot.issue447.IdentifiableEntityRepositoryService;
+import com.github.onacit.spring.boot.issue20916.IdentifiableEntityRepositoryService;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 

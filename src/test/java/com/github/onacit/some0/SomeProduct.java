@@ -1,6 +1,6 @@
 package com.github.onacit.some0;
 
-import com.github.onacit.spring.boot.issue447.IdentifiableEntity;
+import com.github.onacit.spring.boot.issue20916.IdentifiableEntity;
 
 import javax.persistence.Entity;
 

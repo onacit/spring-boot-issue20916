@@ -1,4 +1,4 @@
-package com.github.onacit.spring.boot.issue447;
+package com.github.onacit.spring.boot.issue20916;
 
 import javax.persistence.MappedSuperclass;
 import java.time.temporal.TemporalAccessor;
