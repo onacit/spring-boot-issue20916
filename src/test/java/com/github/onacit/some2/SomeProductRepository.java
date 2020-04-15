@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import java.time.LocalDateTime;
 
 @Repository
-interface SomeProductRepository extends AuditableEntityRepository2<SomeProduct, LocalDateTime, Long> {
+interface SomeProductRepository extends AuditableEntityRepository2<SomeProduct2, LocalDateTime, Long> {
 
 }

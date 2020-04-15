@@ -6,5 +6,5 @@ import javax.persistence.Entity;
 import java.time.LocalDateTime;
 
 @Entity
-class SomeProduct extends AuditableEntity2<LocalDateTime, Long> {
+class SomeProduct2 extends AuditableEntity2<LocalDateTime, Long> {
 }

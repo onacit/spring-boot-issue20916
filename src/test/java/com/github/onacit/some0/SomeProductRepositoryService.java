@@ -6,6 +6,6 @@ import org.springframework.validation.annotation.Validated;
 
 @Validated
 @Service
-class SomeProductRepositoryService extends IdentifiableEntityRepositoryService<SomeProductRepository, SomeProduct> {
+class SomeProductRepositoryService extends IdentifiableEntityRepositoryService<SomeProductRepository, SomeProduct0> {
 
 }

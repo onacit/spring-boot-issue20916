@@ -5,10 +5,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 class SomeProductRepositoryServiceTest
-        extends IdentifiableEntityRepositoryServiceTest<SomeProductRepositoryService, SomeProductRepository, SomeProduct> {
+        extends IdentifiableEntityRepositoryServiceTest<SomeProductRepositoryService, SomeProductRepository, SomeProduct0> {
 
     SomeProductRepositoryServiceTest() {
-        super(SomeProductRepositoryService.class, SomeProductRepository.class, SomeProduct.class);
+        super(SomeProductRepositoryService.class, SomeProductRepository.class, SomeProduct0.class);
     }
 
 //    @MockBean

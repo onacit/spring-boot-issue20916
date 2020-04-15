@@ -7,9 +7,9 @@ import java.time.LocalDateTime;
 
 @Slf4j
 class SomeProductRepositoryServiceTest
-        extends AuditableEntityRepositoryService2Test<SomeProductRepositoryService, SomeProductRepository, SomeProduct, LocalDateTime, Long> {
+        extends AuditableEntityRepositoryService2Test<SomeProductRepositoryService, SomeProductRepository, SomeProduct2, LocalDateTime, Long> {
 
     SomeProductRepositoryServiceTest() {
-        super(SomeProductRepositoryService.class, SomeProductRepository.class, SomeProduct.class, LocalDateTime.class, Long.class);
+        super(SomeProductRepositoryService.class, SomeProductRepository.class, SomeProduct2.class, LocalDateTime.class, Long.class);
     }
 }

@@ -5,5 +5,5 @@ import com.github.onacit.spring.boot.issue20916.IdentifiableEntity;
 import javax.persistence.Entity;
 
 @Entity
-public class SomeProduct extends IdentifiableEntity {
+public class SomeProduct0 extends IdentifiableEntity {
 }

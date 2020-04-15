@@ -9,6 +9,6 @@ import java.time.LocalDateTime;
 @Validated
 @Service
 class SomeProductRepositoryService
-        extends AuditableEntityRepositoryService2<SomeProductRepository, SomeProduct, LocalDateTime, Long> {
+        extends AuditableEntityRepositoryService2<SomeProductRepository, SomeProduct2, LocalDateTime, Long> {
 
 }
