@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.onacit</groupId>
-    <artifactId>spring-boot-issue447</artifactId>
+    <artifactId>spring-boot-issue20916</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
-    <description>Base module for Spring Data JPA</description>
+    <description>A reproducible sample for spring-projects/spring-boot/issue/20916</description>
     <url>https://github.com/onacit/${project.artifactId}</url>
     <inceptionYear>2020</inceptionYear>
 
@@ -24,31 +23,25 @@
         <version.jakarta.validation-api>2.0.1</version.jakarta.validation-api>
         <version.maven-failsafe>${version.maven-surefire}</version.maven-failsafe>
         <version.maven-surefire>3.0.0-M3</version.maven-surefire>
-        <version.org.apache.maven.wagon>3.3.4</version.org.apache.maven.wagon>
         <version.org.hibernate.orm>6.0.0.Alpha4</version.org.hibernate.orm>
         <version.org.projectlombok>1.18.12</version.org.projectlombok>
-        <version.org.springframework.boot>2.2.6.RELEASE</version.org.springframework.boot>
-        <version.org.springframework.data>2.2.6.RELEASE</version.org.springframework.data>
+        <version.org.springframework.boot>2.3.0.RELEASE</version.org.springframework.boot>
+        <version.org.springframework.data>${version.org.springframework.boot}</version.org.springframework.data>
     </properties>
 
     <dependencyManagement>
         <dependencies>
-            <dependency> <!-- just for the deployment -->
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-webdav-jackrabbit</artifactId>
-                <version>${version.org.apache.maven.wagon}</version>
-            </dependency>
-            <dependency> <!-- used in animal-sniffer-maven-plugin -->
+            <dependency><!-- used in animal-sniffer-maven-plugin -->
                 <groupId>org.codehaus.mojo.signature</groupId>
                 <artifactId>java18</artifactId>
                 <version>1.0</version>
             </dependency>
-            <dependency> <!-- used in compiler-plugin's annotationProcessors -->
+            <dependency><!-- used in compiler-plugin's annotationProcessors -->
                 <groupId>org.hibernate.orm</groupId>
                 <artifactId>hibernate-jpamodelgen</artifactId>
                 <version>${version.org.hibernate.orm}</version>
             </dependency>
-            <dependency> <!-- used in compiler-plugin's annotationProcessors -->
+            <dependency><!-- used in compiler-plugin's annotationProcessors -->
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${version.org.projectlombok}</version>
